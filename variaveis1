@@ -1,0 +1,13 @@
+nome ='Analice Souto'
+empresa = 'anapi'
+qtd_funcionarios = 500
+mediaMensalidade = 856.6
+
+print ( nome + ' trabalha na empresa ' + empresa)
+print ('Possui, ' ,qtd_funcionarios, 'funcionários.')
+print ('A média da mensalidade da empresa é de ' +str(mediaMensalidade), '\n') 
+print('------------------ Verificação tipos de dados ---------------------------\n')
+print('O tipo da variável [nome] é : ' ,type(nome))
+print('O tipo da variável [empresa] é : ' ,type(empresa))
+print('O tipo da variável [qtd_funcionarios] é : ',type(qtd_funcionarios))
+print('O tipo da variável [mediaMensalidade] é : ',type(mediaMensalidade))
