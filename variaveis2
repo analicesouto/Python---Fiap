@@ -1,0 +1,6 @@
+pess1 = input('Digite o nome do primeiro responsável: ')
+pess2 = input('Digite o nome do segundo responsável: ')
+evento = input('Digite o nome do evento: ')
+entrada = float(input('Digite o valor do evento: '))
+
+print('Declaro para o senhor ',pess1,' que o senhor ',pess2,'esteve presente no evento', event, 'e gastou R$', str(entrada), 'com a entrada.') 
