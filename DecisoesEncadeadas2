@@ -1,0 +1,26 @@
+nome=input("Digite o nome do paciente: ")
+idade=int(input("Digite a idade do paciente: "))
+doenca_infectocontagiosa = input('Suspeita de doença infecto-contagiosa?').upper()
+
+if doenca_infectocontagiosa=="SIM":
+        print("Encaminhe o paciente para sala AMARELA") 
+elif doenca_infectocontagiosa=="NAO":
+        print("Encaminhe o paciente para sala BRANCA")
+else:
+        print("Responda a suspeita de doença infectocontagiosa com SIM ou NAO")
+        
+''' ----------------SEGUNDO PROBLEMA A SER RESOLVIDO ------------------------'''
+
+if idade >= 65:
+    print('O paciente ' + nome + ' tem prioridade!')
+else:
+    genero =input('Digite o gênero do paciente: ').upper()
+    if genero=='FEMININO' and idade >10:
+        gravidez=input('A paciente está grávida? ').upper()
+        if gravidez=='SIM':
+            print('O paciente ' + nome + ' tem prioridade!')
+        else:
+            print('O paciente ' + nome + ' não tem prioridade!')
+    else:
+        print('O paciente ' + nome + ' não tem prioridade!')
+ 
